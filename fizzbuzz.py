@@ -2,7 +2,7 @@ def multiple(i, div):
     if i % div == 0: return i
 def switcher(i):
     switcher = {
-        multiple(i,3) : 'Fuzz',
+        multiple(i,3) : 'Fizz',
         multiple(i,5): 'Buzz',
         multiple(i,15): 'FuzzBuzz', }
     return switcher.get(i,i)
